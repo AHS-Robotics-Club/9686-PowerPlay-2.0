@@ -9,7 +9,7 @@ import com.arcrobotics.ftclib.command.WaitCommand;
 import com.arcrobotics.ftclib.hardware.motors.Motor;
 
 import org.firstinspires.ftc.teamcode.subsystems.teleop.Intake.Lifts.LiftMotorGroup;
-import org.firstinspires.ftc.teamcode.subsystems.teleop.Testing.Slides.TestPLift;
+import org.firstinspires.ftc.teamcode.subsystems.teleop.SoMuchTesting.Slides.TestPLift;
 
 public class TestSlidePControl extends CommandOpMode {
     // DASHBOARD VALUES

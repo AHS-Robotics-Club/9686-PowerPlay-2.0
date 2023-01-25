@@ -146,7 +146,7 @@ public class VisionParkingOnlyAuton extends LinearOpMode {
             telemetry.update();
             endMySuffering.followTrajectorySequence(
                     endMySuffering.trajectorySequenceBuilder(startPose)
-                            .strafeLeft(0.7)
+                            .forward(1.8)
                             .build()
             );
 
@@ -155,8 +155,8 @@ public class VisionParkingOnlyAuton extends LinearOpMode {
             telemetry.update();
             endMySuffering.followTrajectorySequence(
                     endMySuffering.trajectorySequenceBuilder(startPose)
-                            .strafeLeft(0.8)
-                            .forward(1.1)
+                            .strafeLeft(3.7)
+                            .forward(1.8)
                             .build()
             );
             //left trajectory
@@ -166,7 +166,7 @@ public class VisionParkingOnlyAuton extends LinearOpMode {
             telemetry.update();
             endMySuffering.followTrajectorySequence(
                     endMySuffering.trajectorySequenceBuilder(startPose)
-                            .forward(1.1)
+                            .forward(1.8)
                             .build()
             );
         }else{
@@ -175,8 +175,8 @@ public class VisionParkingOnlyAuton extends LinearOpMode {
             telemetry.update();
             endMySuffering.followTrajectorySequence(
                     endMySuffering.trajectorySequenceBuilder(startPose)
-                            .strafeRight(0.8)
-                            .forward(1.1)
+                            .strafeRight(3.7)
+                            .forward(1.8)
                             .build()
             );
         }
