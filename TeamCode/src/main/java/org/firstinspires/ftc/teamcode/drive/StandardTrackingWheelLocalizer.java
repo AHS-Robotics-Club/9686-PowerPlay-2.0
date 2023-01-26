@@ -80,6 +80,6 @@ public class StandardTrackingWheelLocalizer extends TwoTrackingWheelLocalizer {
 
     @Override
     public double getHeading() {
-
+        return 0;
     }
 }

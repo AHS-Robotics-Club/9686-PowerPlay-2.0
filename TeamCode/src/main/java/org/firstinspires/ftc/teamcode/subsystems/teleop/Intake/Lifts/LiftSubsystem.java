@@ -6,6 +6,10 @@ public class LiftSubsystem extends SubsystemBase {
     private LiftMotorGroup liftMotor;
     private double motorConstant = 1;
 
+    /**
+     *
+     * @param lM LiftMotor
+     */
     public LiftSubsystem(LiftMotorGroup lM){
         liftMotor = lM;
     }
